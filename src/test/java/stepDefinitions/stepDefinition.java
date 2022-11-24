@@ -48,6 +48,8 @@ public class stepDefinition extends Utils{
 		
 		APIresource api=APIresource.valueOf(rosource);
 		System.out.println(api.getResource());
+		System.out.println(" ...........................");
+		System.out.println(" ...........................");
 		
 		resspec=new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		if(method.equalsIgnoreCase("POST"))
