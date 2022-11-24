@@ -48,9 +48,9 @@ public class stepDefinition extends Utils{
 		
 		APIresource api=APIresource.valueOf(rosource);
 		System.out.println(api.getResource());
-		System.out.println(" 1");
-		System.out.println(" 2");
-		System.out.println(" 3");
+		System.out.println(" 4");
+		System.out.println(" 5");
+		System.out.println(" 6");
 	
 		
 		resspec=new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
